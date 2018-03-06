@@ -1,10 +1,10 @@
 # site settings
-title: The Well-Read Catholic
+title: Forty
 subtitle: by HTML5 UP
-email: info@wellreadcatholic.com
+email: youremailaddress@gmail.com
 description: A responsive site template designed by HTML5 Up<br /> and released under the Creative Commons.
-baseurl: "/index" # the subpath of your site, e.g. /blog
-url: "www.wellreadcatholic.com" # the base hostname & protocol for your site
+baseurl: "/forty-jekyll-theme" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site
 author:
 street_address: 1234 Somewhere Road
 city: Nashville
