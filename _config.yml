@@ -5,8 +5,11 @@ description: > # this means to ignore newlines until "baseurl:"
   The best in Catholic literature and what Catholics read. Including lists, recommendations, and book reviews.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://locahost:4000" # the base hostname & protocol for your site
+facebook_username: wellreadcatholic
+instagram_username: wellreadcatholic
 twitter_username: wellreadcatholic
 github_username:  WellReadCatholic
+goodreads_username: wellreadcatholic
 
 # Build settings
 markdown: kramdown
