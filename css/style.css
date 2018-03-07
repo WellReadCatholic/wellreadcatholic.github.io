@@ -331,12 +331,21 @@
 					background: #829bc9;
 				}
 
-			.icon.circle.fa-google-plus {
+				.icon.circle.fa-google-plus {
+					background: #db6b67;
+					color: white;
+				}
+
+					.icon.circle.fa-google-plus:hover {
+						background: #df7b77;
+					}
+
+			.icon.circle.fa-instagram {
 				background: #db6b67;
 				color: white;
 			}
 
-				.icon.circle.fa-google-plus:hover {
+				.icon.circle.fa-instagram:hover {
 					background: #df7b77;
 				}
 
@@ -349,6 +358,15 @@
 					background: #e1b89b;
 				}
 
+				.icon.circle.fa-goodreads-g {
+					background: #dcad8b;
+					color: white;
+				}
+
+					.icon.circle.fa-goodreads-g:hover {
+						background: #e1b89b;
+					}
+
 			.icon.circle.fa-dribbble {
 				background: #da83ae;
 				color: white;
@@ -357,6 +375,15 @@
 				.icon.circle.fa-dribbble:hover {
 					background: #df93b8;
 				}
+
+				.icon.circle.fa-medium-m {
+					background: #da83ae;
+					color: white;
+				}
+
+					.icon.circle.fa-medium-m:hover {
+						background: #df93b8;
+					}
 
 		.icon.featured {
 			cursor: default;
