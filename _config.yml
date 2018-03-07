@@ -7,7 +7,7 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://locahost:4000" # the base hostname & protocol for your site
 facebook_username: wellreadcatholic
 instagram_username: wellreadcatholic
-twitter_username: wellreadcatholic
+twitter_username: wellreadcathlic
 github_username:  WellReadCatholic
 goodreads_username: wellreadcatholic
 
