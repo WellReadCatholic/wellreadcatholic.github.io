@@ -1,26 +1,25 @@
-<header id="header">
-				<h1 id="logo"><a href="/">The Well-Read Catholic <span></span></a></h1>
-				<nav id="nav">
-					<ul>
-						<li><a href="/">Welcome</a></li>
-                        <li><a href="/blog.html">Reviews</a></li>
-						<li class="submenu">
-							<a href="">Lists</a>
-							<ul>
-								<li><a href="/classics.html">Classics</a></li>
-								<li><a href="/spiritual.html">Spiritual</a></li>
-								<li><a href="/spiritual.html">Gift Ideas</a></li>
-								<li class="submenu">
-									<a href="">Children's Recommendations</a>
-									<ul>
-										<li><a href="/1000greatbooks.html">1000 Good Books</a></li>
-										<li><a href="/1000greatbooks.html">Something New</a></li>
-										<li><a href="/1000greatbooks.html">Spiritual Reading for Children</a></li>
-									</ul>
-								</li>
-							</ul>
-						</li>
-						<li><a href="/contact.html" class="button special">Contact</a></li>
-					</ul>
-				</nav>
-			</header>
+<!-- Header -->
+<header id="header"{% if page.layout == 'landing' %} class="alt"{% endif %}>
+  <h1><a href="{{ site.baseurl }}/index.html">{{ site.title }}</a></h1>
+  <nav id="nav">
+    <ul>
+      <li class="special">
+        <a href="#menu" class="menuToggle"><span>Menu</span></a>
+        <div id="menu">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            {% for my_page in site.pages %}
+            {% if my_page.title %}
+            <li><a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a></li>
+            {% endif %}
+            {% endfor %}
+            <li><a href="#">Sign Up</a></li>
+            <li><a href="#">Log In</a></li>
+            <li><a href="{{ "/feed.xml" | prepend: site.baseurl }}"
+                   class="icon fa-feed"> RSS Feed</a></li>
+          </ul>
+        </div>
+      </li>
+    </ul>
+  </nav>
+</header>
