@@ -5,7 +5,7 @@ owner: Patrick Callahan # or company name
 first_published: 2018 # if migrating another site, the year of your first publish
 email: info@wellreadcathlic.com
 baseurl: "/index" # the subpath of your site, e.g. /blog
-url: "http://wellreadcatholic.com" # the base hostname & protocol for your site
+url: "http://www.wellreadcatholic.com" # the base hostname & protocol for your site
 social:
   twitter: https://twitter.com/wellreadcathlic
   #github: https://github.com/<username>
